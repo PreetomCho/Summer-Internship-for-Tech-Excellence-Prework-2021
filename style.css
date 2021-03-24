@@ -1,0 +1,106 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  
+  background-color: slategrey;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  color: #000000;
+  
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+
+#gameButtonArea > button {
+  
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  
+  display: none;
+}
+  
+#button1 {
+  
+  background: lightgreen;
+  
+}
+
+#button2 {
+  
+  background: lightblue;
+}
+
+#button3 {
+  
+  background: pink;
+}
+
+#button4 {
+  
+  background: lightyellow;
+}
+
+#button5 {
+  
+  background: mediumpurple;
+}
+
+
+#button6 {
+  
+  background: orange;
+}
+
+
+#button1:active, #button1.lit {
+  
+  background:url("https://cdn.glitch.com/813d331b-c71a-412b-8a4c-c7da03696e58%2Fbulbasaur.jpg?v=1616551105449");
+  background-size: cover;
+}
+
+#button2:active, #button2.lit {
+  
+  background:url("https://cdn.glitch.com/813d331b-c71a-412b-8a4c-c7da03696e58%2Fsquirtle.jpg?v=1616551114064");
+  background-size: cover;
+}
+
+#button3:active, #button3.lit {
+  
+  background:url("https://cdn.glitch.com/813d331b-c71a-412b-8a4c-c7da03696e58%2Fcharmander.jpg?v=1616551108975");
+  background-size: cover;
+}
+
+#button4:active, #button4.lit {
+  
+  background:url("https://cdn.glitch.com/813d331b-c71a-412b-8a4c-c7da03696e58%2Fpikachu.jpg?v=1616551127499");
+  background-size: cover;
+}
+
+#button5:active, #button5.lit {
+  
+  background:url("https://cdn.glitch.com/813d331b-c71a-412b-8a4c-c7da03696e58%2Fsnorlax.jpg?v=1616551123175");
+  background-size: cover;
+}
+
+#button6:active, #button6.lit {
+  
+  background:url("https://cdn.glitch.com/813d331b-c71a-412b-8a4c-c7da03696e58%2Feevee.jpg?v=1616551117840");
+  background-size: cover;
+  
+}
